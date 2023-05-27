@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echo Chat</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="output">
+            <button id="btn_geo">
+                <div>Гео-локация</div> 
+                <svg width="18" height="22" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 20.6C9 20.6 16.513 13.9217 16.513 8.91304C16.513 4.7637 13.1493 1.39999 9 1.39999C4.85066 1.39999 1.48695 4.7637 1.48695 8.91304C1.48695 13.9217 9 20.6 9 20.6Z" stroke="black" stroke-width="2"/>
+                    <path d="M11.4003 8.60015C11.4003 9.92563 10.3258 11.0001 9.0003 11.0001C7.67482 11.0001 6.6003 9.92563 6.6003 8.60015C6.6003 7.27466 7.67482 6.20015 9.0003 6.20015C10.3258 6.20015 11.4003 7.27466 11.4003 8.60015Z" stroke="black" stroke-width="2"/>
+                </svg>
+            </button>
+            <div id="wind_vision">
+                <div id="wind"></div>
+            </div> 
+        </div>
+        <div id="input_all">
+            <input id="input" type="text" placeholder="Введите сообщение...">
+            <svg id="btn_echo" width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.91402 16.8L1.60001 11.486M1.60001 11.486L6.91402 6.17199M1.60001 11.486H14.4C16.6091 11.486 18.4 9.69514 18.4 7.486V1.20001" stroke="#D8D2D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+    </div>
+</body>
+</html>
